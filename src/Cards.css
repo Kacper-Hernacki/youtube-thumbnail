@@ -1,0 +1,17 @@
+.cards {
+  flex: 0.85;
+  background-color: #f9f9f9;
+  padding-left: 20px;
+}
+
+.cards__title {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.cards__videos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 5px;
+}

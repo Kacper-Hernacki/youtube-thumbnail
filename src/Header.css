@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.header__search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__searchButton {
+  color: lightgray !important;
+}
+
+.header__searchInput input {
+  padding: 8px !important;
+}
+
+.header__rightLogos {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
